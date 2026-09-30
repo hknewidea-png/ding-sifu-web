@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ding師傅 · 測試版</title>
+  <style>
+    :root { --brand: #ff7a00; --ink: #1f2328; --muted: #6a737d; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang HK", "Noto Sans HK", "Microsoft JhengHei", sans-serif;
+           color: var(--ink); background: #fff8f1; }
+    .banner { background: #fff3cd; color: #7a5b00; border-bottom: 1px solid #f0d98c; padding: 12px 16px;
+              text-align: center; font-weight: 600; }
+    main { max-width: 480px; margin: 0 auto; padding: 28px 20px 40px; }
+    h1 { font-size: 30px; margin: 8px 0 4px; }
+    h1 span { color: var(--brand); }
+    p.lead { color: var(--muted); margin: 0 0 24px; }
+    a.btn { display: block; text-decoration: none; color: #fff; background: var(--brand); border-radius: 16px;
+            padding: 22px 20px; margin: 14px 0; font-size: 22px; font-weight: 700; text-align: center;
+            box-shadow: 0 6px 16px rgba(255, 122, 0, .25); }
+    a.btn small { display: block; font-size: 14px; font-weight: 500; opacity: .9; margin-top: 4px; }
+    a.btn.alt { background: #1f6feb; box-shadow: 0 6px 16px rgba(31, 111, 235, .25); }
+    .card { background: #fff; border-radius: 14px; padding: 16px 18px; margin-top: 24px; border: 1px solid #f1e3d3; }
+    .card h2 { font-size: 17px; margin: 0 0 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    td { padding: 7px 4px; border-top: 1px solid #f3ece4; }
+    td.num { font-family: ui-monospace, Menlo, monospace; white-space: nowrap; }
+    .otp { font-family: ui-monospace, Menlo, monospace; font-size: 20px; font-weight: 700; letter-spacing: 2px; color: var(--brand); }
+    .note { color: var(--muted); font-size: 13px; line-height: 1.6; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="banner">⚠️ 測試版，付款為模擬或未開放</div>
+  <main>
+    <h1>Ding<span>師傅</span></h1>
+    <p class="lead">裝修維修配對平台 · 連接真實測試後台</p>
+
+    <a class="btn" href="customer/">客戶版<small>搵師傅、出價、揀師傅</small></a>
+    <a class="btn alt" href="business/">師傅版<small>上架、認證、報價（批核中心：管理員測試號碼）</small></a>
+
+    <div class="card">
+      <h2>測試電話號碼（只限以下號碼）</h2>
+      <table>
+        <tr><td class="num">9876 5432</td><td>客戶（王小姐）· 客戶版</td></tr>
+        <tr><td class="num">9123 4567</td><td>師傅 · 師傅版</td></tr>
+        <tr><td class="num">9000 0001</td><td>管理員測試（需要後台開通 admin）</td></tr>
+      </table>
+      <p style="margin:14px 0 0">驗證碼（OTP）：<span class="otp">123456</span></p>
+      <p class="note">
+        · 輸入 8 位號碼即可（+852 自動加上）；唔會真係發出 SMS。<br>
+        · 其他號碼暫時收唔到驗證碼。<br>
+        · 付款功能未開放／只係模擬，唔會收取任何費用。<br>
+        · 測試資料可能會被清除。
+      </p>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ding師傅</title>
+  <script>
+    // GitHub Pages fallback: the apps use Flutter's hash URL strategy, so any
+    // unknown path under an app folder goes back to that app's entry point.
+    (function () {
+      var seg = location.pathname.split('/');       // ['', 'ding-sifu-web', 'customer', ...]
+      var base = '/' + seg[1] + '/';
+      var app = seg[2] === 'customer' || seg[2] === 'business' ? seg[2] + '/' : '';
+      location.replace(base + app + location.hash);
+    })();
+  </script>
+</head>
+<body></body>
+</html>
