@@ -62800,7 +62800,7 @@ dL(a,b){var s=A.bIk(B.vw,A.x6(b.P($.blm(),t.GQ)))
 return new A.LQ(b.P($.bFa(),t.E_),new A.arV(),new A.arW(),s,B.rv,B.ako,B.a9Q,!1,null)}}
 A.arW.prototype={
 $1(a){A.ab(a,B.o,t.m).toString
-return"Ding\u5e2b\u5085"},
+return"Ding"},
 $S:914}
 A.arV.prototype={
 $2(a,b){b.toString
@@ -62878,7 +62878,7 @@ a2=A.a([u.Z,"\u5de5\u7a0b\u4fdd\u96aa\u8f49\u4ecb","\u672c\u5e73\u53f0\u4e26\u97
 a3=a1.f
 a4=a1.w
 B.b.B(a2,A.bjJ(a,a3,a1.r,!1,a4))
-a2.push("\u6211\u540c\u610f Ding\u5e2b\u5085 \u4f7f\u7528\u689d\u6b3e\u540c\u79c1\u96b1\u653f\u7b56")
+a2.push("\u6211\u540c\u610f Ding \u4f7f\u7528\u689d\u6b3e\u540c\u79c1\u96b1\u653f\u7b56")
 s=14
 return A.h(h.IU(A.Hc(B.hI.cl(B.b6.cl(A.bpm(a2))).a),B.on,a0,a6),$async$uu)
 case 14:case 13:case 9:if(A.bi6(e)){a6=e
@@ -62910,7 +62910,7 @@ p=A.cH(i,B.F,i,i,A.blR(new A.aYL(a)),i,i,i)
 o=A.bU(i,i,B.q,i,i,B.T1,i,320,i,i,i,i,i,i)
 n=A.j(a).ok.z
 n=A.l("\u51fa job \u514d\u8cbb\u30fb\u53ee\u5b89\u5fc3\u6309\u898f\u5247\u653e\u6b3e",i,i,i,i,i,n==null?i:n.aI(B.av),B.b2,i,i)
-m=A.l("\u767b\u5165 Ding\u5e2b\u5085",i,i,i,i,i,A.j(a).ok.w,i,i,i)
+m=A.l("\u767b\u5165 Ding",i,i,i,i,i,A.j(a).ok.w,i,i,i)
 l=A.j(a)
 k=t.p
 l=A.a([m,B.u,A.cX(i,B.G,!1,i,!0,B.r,i,A.d2(),r,i,i,i,i,i,2,A.db(i,i,i,i,i,i,i,i,!0,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,"9876 5432",i,i,i,i,i,i,i,i,"\u624b\u6a5f\u865f\u78bc",!0,!0,!1,i,i,i,i,i,"+852 ",i,i,i,i,i,i,i,i),B.C,!0,i,!0,i,!1,i,B.a5,i,i,i,B.aJN,i,B.dN,i,i,i,1,i,i,!1,"\u2022",i,new A.aYM(j),i,i,i,!1,i,i,!1,i,!0,i,B.aa,i,i,i,i,i,i,i,i,i,i,i,l.ok.w,!0,B.U,i,B.af,i,i,i,i)],k)
@@ -62920,7 +62920,7 @@ m=m==null?i:m.aI(B.cK)
 l.push(new A.al(B.eU,A.l("\u767b\u5165\u53ef\u7528 "+r,i,i,i,i,i,m,i,i,i),i))}if(j.z){r=A.a([B.cC,new A.JM(j.x,"SMS \u9a57\u8b49\u78bc",new A.aYN(j),!0,i),B.m,A.l("\u9a57\u8b49\u78bc\u5df2\u767c\u9001\u81f3 "+A.bis(q==null?"":q),i,i,i,i,i,A.j(a).ok.Q,i,i,i)],k)
 if(s){m=A.j(a).ok.Q
 r.push(A.l("\u9a57\u8b49\u78bc\u4fc2 123456",i,i,i,i,i,m==null?i:m.aI(B.cK),i,i,i))}B.b.B(l,r)}l.push(B.aB)
-l.push(A.aB(A.a([A.bsF(i,!1,i,i,i,!1,B.aKq,i,i,new A.aYO(j),i,i,i,i,i,!1,j.y),B.he,A.bf(A.dh(A.a([A.l("\u6211\u540c\u610f Ding\u5e2b\u5085 \u4f7f\u7528\u689d\u6b3e\u540c\u79c1\u96b1\u653f\u7b56",i,i,i,i,i,A.j(a).ok.z,i,i,i),A.ju(A.l("\u7747\u5e73\u53f0\u898f\u5247\u53ca\u6536\u8cbb",i,i,i,i,i,i,i,i,i),B.aJV,new A.aYP(a),i)],k),B.os,0,0),1)],k),B.k,B.f,B.i,0))
+l.push(A.aB(A.a([A.bsF(i,!1,i,i,i,!1,B.aKq,i,i,new A.aYO(j),i,i,i,i,i,!1,j.y),B.he,A.bf(A.dh(A.a([A.l("\u6211\u540c\u610f Ding \u4f7f\u7528\u689d\u6b3e\u540c\u79c1\u96b1\u653f\u7b56",i,i,i,i,i,A.j(a).ok.z,i,i,i),A.ju(A.l("\u7747\u5e73\u53f0\u898f\u5247\u53ca\u6536\u8cbb",i,i,i,i,i,i,i,i,i),B.aJV,new A.aYP(a),i)],k),B.os,0,0),1)],k),B.k,B.f,B.i,0))
 r=j.as
 if(r!=null){m=A.j(a).ok.Q
 l.push(new A.al(B.eU,A.l(r,i,i,i,i,i,m==null?i:m.aI(B.jj),i,i,i),i))}l.push(B.cC)
@@ -65758,7 +65758,7 @@ a4=q.r
 a5=B.e.c4(i*a4+5000,1e4)
 a6=q.at
 B.b.B(a1,A.a([B.u,new A.bB("\u5e2b\u5085\u5df2\u5831\u5b8c\u5de5\uff0c\u8acb\u6aa2\u67e5\u5f8c\u6309\u300c\u5b8c\u5de5\u300d",B.bx,B.a5S,B.aM0),B.m,new A.a5o(b0,d,i,a5,a4,B.e.c4(i*a6+5000,1e4),a6,q.db,j.b,a9)],a3))}if(n===B.is)B.b.B(a1,A.a([B.u,new A.bB("\u96d9\u65b9\u5df2\u78ba\u8a8d\u5b8c\u5de5\uff1b\u5927\u984d\u653e\u6b3e\u7b49\u5e73\u53f0\u8986\u6838",B.at,B.jM,a9)],a3))
-if(n===B.h3)B.b.B(a1,A.a([B.u,new A.bB("\u5df2\u653e\u6b3e\u4ffe\u5e2b\u5085\uff0c\u591a\u8b1d\u4f7f\u7528 Ding\u5e2b\u5085",B.hO,B.a4W,a9)],a3))
+if(n===B.h3)B.b.B(a1,A.a([B.u,new A.bB("\u5df2\u653e\u6b3e\u4ffe\u5e2b\u5085\uff0c\u591a\u8b1d\u4f7f\u7528 Ding",B.hO,B.a4W,a9)],a3))
 a1.push(new A.a53(q,r,new A.b5a(b1,q),a9))
 if(e)B.b.B(a1,A.a([B.u,new A.bB("\u5df2\u7533\u8acb\u53d6\u6d88\uff0c\u7b49\u5e73\u53f0\u8986\u6838\u9000\u6b3e",B.bx,a9,a9)],a3))
 if(k!=null)B.b.B(a1,A.a([B.u,new A.JV(k,q,r,a9)],a3))
@@ -72031,10 +72031,10 @@ A.JL.prototype={
 K(){return"DingLogoVariant."+this.b}}
 A.JK.prototype={
 C(a){var s=null,r=this.c
-return A.bm(s,s,s,A.bur("assets/brand/icon.png",!0,B.dt,s,r,"ding_ui",r),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,new A.A(this.d,t.LK),"Ding\u5e2b\u5085",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.z,s)}}
+return A.bm(s,s,s,A.bur("assets/brand/icon.png",!0,B.dt,s,r,"ding_ui",r),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,new A.A(this.d,t.LK),"Ding",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.z,s)}}
 A.JJ.prototype={
 C(a){var s=null,r=this.d,q=(r==null?A.dB(a).b:r)?"assets/brand/lockup-dark.png":"assets/brand/lockup-light.png"
-return A.bm(s,s,s,A.bur(q,!0,B.dt,B.vq,this.c,"ding_ui",s),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,s,"Ding\u5e2b\u5085",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.z,s)}}
+return A.bm(s,s,s,A.bur(q,!0,B.dt,B.vq,this.c,"ding_ui",s),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,s,"Ding",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.z,s)}}
 A.nn.prototype={
 K(){return"DingSkin."+this.b}}
 A.oy.prototype={

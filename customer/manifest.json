@@ -1,11 +1,11 @@
 {
-    "name": "Ding師傅",
-    "short_name": "Ding師傅",
+    "name": "Ding",
+    "short_name": "Ding",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#F5F7FB",
     "theme_color": "#FFD600",
-    "description": "Ding師傅 — 香港裝修維修配對平台：影相出 job，AI 即配已驗證師傅。",
+    "description": "Ding — 香港裝修維修配對平台：影相出 job，AI 即配已驗證師傅。",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

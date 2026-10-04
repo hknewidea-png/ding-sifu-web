@@ -63890,7 +63890,7 @@ A.atG.prototype={
 $1(a){var s=t.m
 A.a6(a,B.F,s).toString
 A.a6(a,B.F,s).toString
-return"Ding\u5e2b\u5085 \u5546\u696d\u7248"},
+return"Ding \u5546\u696d\u7248"},
 $S:458}
 A.atF.prototype={
 $2(a,b){b.toString
@@ -66780,7 +66780,7 @@ o.push(new A.hd("\u6211\u5605\u8a55\u5206",i,B.abK,i,new A.aIj(a),!0,B.bBp))
 o.push(new A.hd("\u6211\u5605\u516c\u958b\u6a94\u6848",i,B.abL,i,new A.aIk(a),!0,i))
 o.push(new A.hd("\u767b\u51fa",i,B.abE,i,new A.aIl(b),!1,i))
 k.push(new A.aq(B.aj,new A.k7(o,i),i))
-k.push(A.et(A.p("Ding\u5e2b\u5085 \u5546\u696d\u7248 v0.1.0",i,i,i,i,A.q(a).ok.Q,i,i,i),i,i))
+k.push(A.et(A.p("Ding \u5546\u696d\u7248 v0.1.0",i,i,i,i,A.q(a).ok.Q,i,i,i),i,i))
 k.push(A.et(A.i9(A.p("\u30fb\u30fb\u30fb",i,i,i,i,A.q(a).ok.Q,i,i,i),B.bAU,new A.aIm(this,a),i),i,i))
 k.push(B.a0P)
 return A.d7(i,i,A.dV(k,i,i,B.aL,i,B.ax,!1),i,i)}}
@@ -76794,10 +76794,10 @@ A.a2a.prototype={
 E(){return"DingLogoVariant."+this.b}}
 A.a29.prototype={
 G(a){var s=null
-return A.bG(s,s,s,A.bBD("assets/brand/icon.png",!0,B.h3,s,26,"ding_ui",26),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,new A.z(B.abQ,t.LK),"Ding\u5e2b\u5085",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.a6,s)}}
+return A.bG(s,s,s,A.bBD("assets/brand/icon.png",!0,B.h3,s,26,"ding_ui",26),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,new A.z(B.abQ,t.LK),"Ding",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.a6,s)}}
 A.KV.prototype={
 G(a){var s=null
-return A.bG(s,s,s,A.bBD("assets/brand/lockup-dark.png",!0,B.h3,B.uo,this.c,"ding_ui",s),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,s,"Ding\u5e2b\u5085",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.a6,s)}}
+return A.bG(s,s,s,A.bBD("assets/brand/lockup-dark.png",!0,B.h3,B.uo,this.c,"ding_ui",s),!1,s,s,!1,s,!1,s,s,s,s,s,s,!0,s,s,"Ding",s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,B.a6,s)}}
 A.o_.prototype={
 E(){return"DingSkin."+this.b}}
 A.pg.prototype={
