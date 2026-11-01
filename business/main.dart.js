@@ -14532,7 +14532,7 @@ p=A.a4(a.h(0,"stock_qty"))
 p=p==null?null:B.n.S(p)
 if(p==null)p=0
 return new A.vq(o,s,r,q,p,!J.n(a.h(0,"active"),!1))},
-cms(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){return new A.kM(k,a0,n,a1,a2,f,a6,i,p,a,b,e,a8,m,a9,j,a5,r,a7,h,d,a3,s,o,g,c,l,a4,q)},
+cms(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0){return new A.kM(k,a0,n,a1,a2,f,a6,i,p,a,b,e,a9,m,b0,j,a5,r,a7,h,d,a3,s,o,g,c,l,a4,q,a8)},
 cmu(a){return A.aaj(a)},
 aaj(b4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1=null,b2="brand_name",b3=b4.h(0,"id")
 b3.toString
@@ -14588,7 +14588,7 @@ a9=A.v(b4.h(0,"authorization_kind"))
 a9=A.cmn(a9==null?"":a9)
 b0=A.v(b4.h(0,"authorization_ref"))
 if(b0==null)b0=""
-return A.cms(!k,j,a5,a0,i,o,a4,a,m,e,b3,a6,g,r,a3,l,new A.R_(a8,a9,b0,A.c8N(b4.h(0,"qualification_paths")),J.n(b4.h(0,"qualification_verified"),!0)),c,a2,s,q,p,a1,a7,d,n,b,h,f)},
+return A.cms(!k,j,a5,a0,i,o,a4,a,m,e,b3,a6,g,r,a3,l,new A.R_(a8,a9,b0,A.c8N(b4.h(0,"qualification_paths")),J.n(b4.h(0,"qualification_verified"),!0)),c,a2,s,q,p,a1,a7,d,n,b,J.n(b4.h(0,"virtual"),!0),h,f)},
 cmr(a){var s,r,q
 A.v(a.h(0,"variant_id"))
 A.v(a.h(0,"product_id"))
@@ -14833,7 +14833,7 @@ _.d=c
 _.e=d
 _.f=e
 _.r=f},
-kM:function kM(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9){var _=this
+kM:function kM(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -14862,7 +14862,8 @@ _.fx=a5
 _.fy=a6
 _.go=a7
 _.id=a8
-_.k1=a9},
+_.k1=a9
+_.k2=b0},
 aNR:function aNR(){},
 Cg:function Cg(a,b){this.c=a
 this.e=b},
