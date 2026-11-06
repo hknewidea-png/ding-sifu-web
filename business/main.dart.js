@@ -12837,7 +12837,7 @@ break A}if("no_install_price"===r){s="\u672a\u6709\u5b89\u88dd\u53c3\u8003\u50f9
 break A}if("not_found"===r){s="\u6435\u5514\u5230\u904b\u55ae"
 break A}if("forbidden"===r){s="\u6c92\u6709\u6b0a\u9650"
 break A}if("not_merchant"===r){s="\u4f60\u672a\u4fc2\u96c6\u904b\u5546\u6236"
-break A}if("fee_locked"===r){s="\u5e73\u53f0\u8cbb\u7dad\u6301 4%"
+break A}if("fee_locked"===r){s="\u5831\u50f9\u5df2\u9396\u5b9a\uff0c\u672a\u80fd\u518d\u6539\u3002"
 break A}if("bad_amount"===r){s="\u91d1\u984d\u4e0d\u6b63\u78ba"
 break A}if("tracking_off"===r){s="\u5167\u5730\u8ffd\u8e64\u672a\u958b\u653e"
 break A}if("unpaid"===r){s="\u672a\u4ed8\u6b3e\u5514\u51fa\u8ca8"
