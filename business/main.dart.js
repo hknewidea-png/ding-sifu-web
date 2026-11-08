@@ -105837,7 +105837,9 @@ if(h>0)s.push(B.bk)
 r=new A.ba(14,14)
 if(i.gd4()){o.a.toString
 q=h===B.p.cu(j,0,5)}else q=!1
-p=new A.bg(q?B.a6:B.ca,1.5,B.ag,-1)
+if(q){o.a.toString
+q=B.a6}else q=B.ca
+p=new A.bg(q,1.5,B.ag,-1)
 q=h<j?m[h]:""
 s.push(new A.dJ(1,B.bj,new A.GU(0.9,A.bA(B.aO,A.e(q,n,n,n,n,A.t(a).ok.f,n,n,n),B.V,n,n,new A.bm(B.J,n,new A.eb(p,p,p,p),new A.dk(r,r,r,r),n,n,B.aj),n,n,n,n,n,n,n,n),n),n))
 B.e.A(k,s);++h}k=A.az(k,B.P,n,B.r,B.u,0,n)
