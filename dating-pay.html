@@ -32,7 +32,7 @@
       env: 'prod',
       enabledElements: ['payments'],
     });
-    payments.redirectToCheckout({
+    const options = {
       env: 'prod',
       mode: 'payment',
       intent_id: cfg.intent_id,
@@ -41,7 +41,9 @@
       country_code: 'HK',
       successUrl: cfg.successUrl,
       cancelUrl: cfg.cancelUrl,
-    });
+    };
+    if (Array.isArray(cfg.methods) && cfg.methods.length) options.methods = cfg.methods;
+    payments.redirectToCheckout(options);
   } catch (e) {
     fail();
   }
