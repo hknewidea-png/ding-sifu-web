@@ -6,37 +6,88 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Ding · 測試版</title>
   <style>
-    :root { --brand: #ff7a00; --ink: #1f2328; --muted: #6a737d; }
+    :root {
+      --canvas: #ffffff;
+      --card: #f7f8fa;
+      --line: #e5e7eb;
+      --ink: #1c1e21;
+      --muted: #65676b;
+      --orange: #ea6b2d;
+      --charcoal: #1c1e21;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "PingFang HK", "Noto Sans HK", "Microsoft JhengHei", sans-serif;
-           color: var(--ink); background: #fff8f1; }
-    .banner { background: #fff3cd; color: #7a5b00; border-bottom: 1px solid #f0d98c; padding: 12px 16px;
-              text-align: center; font-weight: 600; }
-    main { max-width: 480px; margin: 0 auto; padding: 28px 20px 40px; }
-    h1 { font-size: 30px; margin: 8px 0 4px; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans HK", "PingFang HK", -apple-system, BlinkMacSystemFont, "Microsoft JhengHei", sans-serif;
+      color: var(--ink);
+      background: var(--canvas);
+    }
+    .banner {
+      background: #fff3cd;
+      color: #7a5b00;
+      border-bottom: 1px solid #f0d98c;
+      padding: 12px 16px;
+      text-align: center;
+      font-weight: 600;
+    }
+    main { max-width: 480px; margin: 0 auto; padding: 28px 20px 48px; }
+    .seal { width: 72px; height: 72px; display: block; }
+    h1 { font-size: 30px; margin: 12px 0 4px; font-weight: 800; letter-spacing: 0; }
     p.lead { color: var(--muted); margin: 0 0 24px; }
-    a.btn { display: block; text-decoration: none; color: #fff; background: var(--brand); border-radius: 16px;
-            padding: 22px 20px; margin: 14px 0; font-size: 22px; font-weight: 700; text-align: center;
-            box-shadow: 0 6px 16px rgba(255, 122, 0, .25); }
-    a.btn small { display: block; font-size: 14px; font-weight: 500; opacity: .9; margin-top: 4px; }
-    a.btn.alt { background: #1f6feb; box-shadow: 0 6px 16px rgba(31, 111, 235, .25); }
-    .card { background: #fff; border-radius: 14px; padding: 16px 18px; margin-top: 24px; border: 1px solid #f1e3d3; }
+    a.entry {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 12px;
+      padding: 22px 20px;
+      margin: 14px 0;
+      font-size: 22px;
+      font-weight: 700;
+      text-align: left;
+    }
+    a.entry small { display: block; font-size: 14px; font-weight: 500; opacity: .92; margin-top: 4px; }
+    a.entry.customer { background: var(--orange); }
+    a.entry.business { background: var(--charcoal); }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-top: 24px;
+      border: 1px solid var(--line);
+    }
     .card h2 { font-size: 17px; margin: 0 0 10px; }
     table { width: 100%; border-collapse: collapse; font-size: 15px; }
-    td { padding: 7px 4px; border-top: 1px solid #f3ece4; }
+    td { padding: 7px 4px; border-top: 1px solid var(--line); }
     td.num { font-family: ui-monospace, Menlo, monospace; white-space: nowrap; }
-    .otp { font-family: ui-monospace, Menlo, monospace; font-size: 20px; font-weight: 700; letter-spacing: 2px; color: var(--brand); }
+    .otp {
+      font-family: ui-monospace, Menlo, monospace;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: var(--orange);
+    }
     .note { color: var(--muted); font-size: 13px; line-height: 1.6; margin-top: 12px; }
   </style>
 </head>
 <body>
   <div class="banner">⚠️ 測試版，付款為模擬或未開放</div>
   <main>
+    <svg class="seal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DING">
+      <rect width="512" height="512" rx="115" fill="#1C1E21"/>
+      <g fill="#FFFFFF">
+        <path fill-rule="evenodd" d="M116 96H180C224.183 96 260 131.817 260 176C260 220.183 224.183 256 180 256H116V96ZM156 132V220H180C204.3 220 224 200.3 224 176C224 151.7 204.3 132 180 132H156Z"/>
+        <rect x="330" y="160" width="44" height="96" rx="6"/>
+        <path d="M116 280H152L212 376V280H248V424H212L152 328V424H116V280Z"/>
+        <path d="M406 306A74 74 0 1 0 422 352V344H352V374H385A42 42 0 1 1 382 325L406 306Z"/>
+      </g>
+      <path d="M352 68Q362 104 398 114Q362 124 352 160Q342 124 306 114Q342 104 352 68Z" fill="#EB642C"/>
+      <path d="M404 58Q408 73 423 77Q408 81 404 96Q400 81 385 77Q400 73 404 58Z" fill="#FFFFFF"/>
+    </svg>
     <h1>Ding</h1>
     <p class="lead">裝修維修配對平台 · 連接真實測試後台</p>
 
-    <a class="btn" href="customer/">客戶版<small>搵師傅、出價、揀師傅</small></a>
-    <a class="btn alt" href="business/">師傅版<small>上架、認證、報價（批核中心：管理員測試號碼）</small></a>
+    <a class="entry customer" href="customer/">客戶版<small>搵師傅、出價、揀師傅</small></a>
+    <a class="entry business" href="business/">師傅版<small>上架、認證、報價（批核中心：管理員測試號碼）</small></a>
 
     <div class="card">
       <h2>測試電話號碼（只限以下號碼）</h2>
