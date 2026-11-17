@@ -7,6 +7,9 @@
   <script>
     // GitHub Pages fallback: the apps use Flutter's hash URL strategy, so any
     // unknown path under an app folder goes back to that app's entry point.
+    // This file is still HTTP 404. dating-pay and mall-pay are real files
+    // (name.html and name/index.html, including copies under customer/),
+    // installed by tool/web_landing/install_pay_routes.sh.
     (function () {
       var seg = location.pathname.split('/');       // ['', 'ding-sifu-web', 'customer', ...]
       var base = '/' + seg[1] + '/';
