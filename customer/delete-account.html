@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DING 帳戶及個人資料刪除指南（Account &amp; Data Deletion Request）</title>
+  <style>
+  body { margin: 0; background: #f6f3ee; color: #1c1915; font-family: "PingFang HK", "Noto Sans TC", "Microsoft JhengHei", sans-serif; line-height: 1.7; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 1.6rem; line-height: 1.35; }
+  h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+  a { color: #8a4b08; }
+  nav { display: flex; gap: 16px; margin: 12px 0 24px; }
+  .meta { color: #5c564e; }
+</style>
+</head>
+<body>
+<main>
+  <nav id="legal-nav">
+    <a data-legal="privacy">私隱政策</a>
+    <a data-legal="terms">服務條款</a>
+    <a data-legal="delete-account">刪除帳戶</a>
+  </nav>
+  <script>
+    (function () {
+      var parts = location.pathname.split('/').filter(Boolean);
+      var root = '/';
+      if (parts.length && parts[0] !== 'privacy' && parts[0] !== 'terms' && parts[0] !== 'delete-account' && parts[0] !== 'customer') {
+        root = '/' + parts[0] + '/';
+      }
+      var prefix = root + (parts.indexOf('customer') >= 0 ? 'customer/' : '');
+      document.querySelectorAll('[data-legal]').forEach(function (a) {
+        a.setAttribute('href', prefix + a.getAttribute('data-legal'));
+      });
+    })();
+  </script>
+  <h1>DING 帳戶及個人資料刪除指南（Account &amp; Data Deletion Request）</h1>
+  
+<p>應用程式名稱：DING（DING 香港生活平台）</p>
+<p>開發及營運主體：New Star Energy Limited（新煋能源有限公司）</p>
+<p>你可隨時選擇透過以下任一方式，申請永久刪除你嘅 DING 帳戶及相關個人資料。這是永久刪除，並非暫時停用帳戶。</p>
+<h2>方法一：喺平台內直接刪除帳戶（推薦已安裝應用程式之用戶）</h2>
+<p>1. 打開 DING 應用程式並登入你嘅帳戶。</p>
+<p>2. 點擊底部導航欄最右側嘅「帳戶」。</p>
+<p>3. 進入「設定」-&gt;「帳戶安全」-&gt; 點擊「刪除帳戶」。</p>
+<p>4. 閱讀刪除影響確認提示後，輸入手機驗證碼確認提交，系統將受理永久刪除程序（並非暫時停用帳戶）。</p>
+<h2>方法二：透過網頁／電郵申請刪除（適用於已卸載應用程式或無法登入之用戶）</h2>
+<p>如你已從手機移除 DING 應用程式，無需重新下載安裝，請直接使用註冊電話或聯絡電郵發送刪除申請：</p>
+<p>• 接收申請電郵：<a href='mailto:KL@nsenergy.com.hk'>KL@nsenergy.com.hk</a></p>
+<p>• 電郵主旨請註明：「申請刪除 DING 帳戶 — [你嘅註冊手提電話號碼，例如 +852 9XXXXXXX]」</p>
+<p>• 核實程序：為防止他人冒認誤刪你嘅帳戶，我們嘅支援團隊會透過你嘅註冊電話號碼進行一次性身份核實，核實無誤後即刻執行刪除。</p>
+<h2>申請刪除前之訂單與結算檢查</h2>
+<p>如你嘅帳戶尚有進行中之商城配送單、未簽收之集運倉務貨件、施工中之裝修／家俬安裝預約，或商戶工作台尚有待人工審批結算之款項，刪除申請會暫時延後完成，直至你先完成收貨、結清費用或取消未開始之預約。這不是永久拒絕刪除。延後期間可以再睇本頁。阻礙清除之後可以再提交。</p>
+<h2>資料刪除範圍與法定保留說明</h2>
+<p>當帳戶刪除程序完成後（核實身份後 14 個工作天內完成，最遲不超過 30 個曆日）：</p>
+<p>1. 將被永久刪除或不可逆匿名化之資料：個人帳戶檔案（姓名／暱稱、頭像、手提電話登入綁定、電郵地址）；已儲存之送貨及上門服務地址簿；我的收藏清單、草稿報價單、未發送訊息及推送通知裝置識別碼；商戶店鋪展示頁及非交易性作品集相片（如屬商戶帳戶）。</p>
+<p>2. 因香港法例及防欺詐合規而獨立封存保留之資料：已完成交易之訂單編號、收付金額明細、發票收據及爭議處理稽核紀錄，將根據香港《稅務條例》及法定會計審計要求，在解除個人日常登入關聯後以唯讀加密方式保留最長 7 年；保留期滿後即自動永久銷毀。</p>
+<p>如有任何疑問，請聯絡 New Star Energy Limited（新煋能源有限公司） 資料保障團隊：<a href='mailto:KL@nsenergy.com.hk'>KL@nsenergy.com.hk</a></p>
+
+</main>
+</body>
+</html>

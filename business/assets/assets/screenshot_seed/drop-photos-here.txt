@@ -1,0 +1,5 @@
+Optional owned photos. If a jpg is missing, the screenshot frame draws a warm-paper line icon instead of a broken image.
+hero_home_living.jpg
+mall_oak_bedframe.jpg
+mall_nightstand.jpg
+work_paint_finish.jpg
